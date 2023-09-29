@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Testing">
+    <test name="Regression Test for TestNG" parallel="classes" thread-count="5">
+        <classes>
+            <class name="code.day6_dropdownlist.c1_Dropdown"></class>
+            <class name="code.day8_iframeAndNegativetest.c2_iframe"></class>
+            <class name="code.day9_windowsAndTabs.c1_Tabs"></class>
+            <class name="code.day10_properties.c2_JSpractice"></class>
+            <class name="code.day11_AlertAndActionPractice.c2_Action"></class>
+        </classes>
+    </test>
+
+</suite>
